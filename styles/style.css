@@ -29,9 +29,8 @@ nav ul li{
 
 .nav-btn{
         font-size: 18px;
-    
-
 }
+
 .btn{
     padding: 15px 30px;
     border-radius: 8px;
@@ -41,6 +40,10 @@ nav ul li{
     font-size: 18px;
     font-weight: bold;
     background-color: #F1F1F3;
+}
+
+.btn:hover{
+    background-color: #9bd6c7;
 }
 
 
@@ -178,6 +181,7 @@ nav ul li{
     margin: 0px 160px;
     justify-content: space-between;  
 }
+
 .vf-img{
     width: 62px;
     height: 62px;
@@ -208,6 +212,9 @@ nav ul li{
     margin-right: 24px;
     background-color: #d5e1f5;
 }
+.vf-box1:hover{
+    background-color: #b5d0ff;
+}
 .vf-box2{
     border-radius: 16px;
     width: 410px;
@@ -217,6 +224,9 @@ nav ul li{
     background-color: #C6E4D6;
    
 }
+.vf-box2:hover{
+    background-color: #a3dac0;
+}
 .vf-box3{
     border-radius: 16px;
     width: 410px;
@@ -225,7 +235,9 @@ nav ul li{
     margin-right: 0px;
     background-color: #F7EBCF;  
 }
-
+.vf-box3:hover{
+    background-color: #fce5b1;
+}
 .vf-btn1{
     color: #FFFFFF;
     font-weight: 600;
@@ -303,7 +315,9 @@ nav ul li{
     margin: 0px 160px 24px 160px;
     justify-content: space-between;
 }
-
+.to-flex:hover{
+    background-color: #fff9be;
+}
 .news-img1{
     border-radius: 24px;
     width: 408px;
@@ -388,6 +402,10 @@ margin: 0px 160px;
     background-color: #FFFFFF;
 }
 
+.donation1:hover {
+    background-color: #9BFFD0;
+}
+
 
 input[type="radio"] {
     display: none;
@@ -423,4 +441,78 @@ input[type="radio"]:checked + label {
 
 .grn-btn1:hover {
     background-color: #4CAF50;
+}
+
+/*******subscribe newsletter******/
+
+.newsletter{
+    background-color: #C6E4D6;
+    margin: 80px 160px;
+    padding: 60px;
+    border-radius: 24px;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 756px;
+    margin: 24px 256px;
+}
+
+.subscribe-input {
+    flex: 1;
+    border: none;
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b8b8b8;
+    text-align: left;
+}
+
+.subscribe-input::placeholder {
+    color: #b8b8b8;
+}
+
+.subscribe-button {
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: mixed;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #4CAF50;
+}
+
+/*******footer***********/
+.footer{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+.footer-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 64px 740px 50px 740px;
+    
+}
+
+footer ul li{
+    margin-right: 23px;
 }
