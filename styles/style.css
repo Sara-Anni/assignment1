@@ -86,6 +86,13 @@ nav ul li{
     border-radius: 8px;
     padding: 17px 24px;
     border-color: #006A50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.grn-btn:hover {
+    background-color: #4CAF50;
 }
 
 .banner-pic{
@@ -353,4 +360,67 @@ nav ul li{
     opacity: 70%;
     margin: 0px 160px 32px 160px;
     text-align: center;
+}
+
+.donation-option {
+margin: 0px 160px;
+}
+
+.donation-options {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    text-align: center;
+    margin: 0px 160px 32px 160px;
+    
+
+}
+
+.donation1{ 
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    margin-right: 24px;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #C6E4D6;
+    
+}
+
+.custom-amount {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grn-btn1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 24px;
+    border-color: #006A50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 32px 400px 0px 600px;
+}
+
+.grn-btn1:hover {
+    background-color: #4CAF50;
 }
