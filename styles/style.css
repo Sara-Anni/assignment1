@@ -4,8 +4,11 @@
     font-weight: normal;
     font-style: normal;
   }
+body{
+    background-color: #F1F1F3;
+}
 
-/*nav styles*/
+/*****************nav styles*****************/
 
 nav{
     display: flex;
@@ -37,9 +40,12 @@ nav ul li{
     border-width: 1px;
     font-size: 18px;
     font-weight: bold;
-    background-color: white;
+    background-color: #F1F1F3;
 }
-/*banner*/
+
+
+/**********************banner**************/
+
 .banner{
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -61,15 +67,15 @@ nav ul li{
     font-weight: medium;
     font-size: 24px;
     line-height: 1;
-    margin-bottom: 1;
+    margin-bottom: 0;
 }
 
 .banner-description{
     color: #0E0E0E;
     font-weight: bold;
     font-size: 56px;
-    margin-top: 16px 0 24px 0;
-    margin-bottom: 1;
+    margin: 16px 0 24px 0;
+    line-height: 1.2;
 }
 
 .grn-btn{
@@ -79,7 +85,7 @@ nav ul li{
     background-color: #006A50;
     border-radius: 8px;
     padding: 17px 24px;
-    margin: 0px;
+    border-color: #006A50;
 }
 
 .banner-pic{
@@ -87,4 +93,264 @@ nav ul li{
     height: 400px;
     margin-right: 59.99px;
     margin: 80px;
+}
+
+
+/********************pillars of bangladesh*************/
+
+.pillars-of-bd{   
+    display: flex;
+    margin: 0px 160px;
+    justify-content: space-between;    
+}
+
+.pillar-head{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 80px 160px 32px 160px;
+}
+.pillar-img{
+    width: 64px;
+    height: 64px;
+}
+.about-pillar{
+     font-weight: 400;
+     font-size: 16px;
+     color: #0E0E0E;
+     opacity: 70%;
+
+}
+.pillar-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.after-banner{
+    border-radius: 16px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 0.1px;
+    width: 302;
+    height: 244;
+    padding: 24px 24px;
+    margin-right: 24px;
+    background-color: #FFFFFF;
+}
+
+.after-banner-last{
+    border-radius: 16px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 0.1px;
+    width: 302;
+    height: 244;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+}
+
+/***********vision for future***************/
+
+.vision-future{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 80px 160px 24px 160px;
+}
+
+.about-vf{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin: 0px 160px 32px 160px;
+}
+.vf{
+    display: flex;
+    margin: 0px 160px;
+    justify-content: space-between;  
+}
+.vf-img{
+    width: 62px;
+    height: 62px;
+    
+}
+.vf-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.vf-description{
+     font-weight: 400;
+     font-size: 16px;
+     color: #0E0E0E;
+     opacity: 70%;
+
+}
+
+.vf-box1{
+    border-radius: 16px;
+    width: 410px;
+    height: 270px;
+    padding: 32px 32px;
+    margin-right: 24px;
+    background-color: #d5e1f5;
+}
+.vf-box2{
+    border-radius: 16px;
+    width: 410px;
+    height: 270px;
+    padding: 32px 32px;
+    margin-right: 24px;
+    background-color: #C6E4D6;
+   
+}
+.vf-box3{
+    border-radius: 16px;
+    width: 410px;
+    height: 270px;
+    padding: 32px 32px;
+    margin-right: 0px;
+    background-color: #F7EBCF;  
+}
+
+.vf-btn1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border-color: #5490F5;
+    margin-top: 24px;
+    margin-bottom: none;
+}
+.vf-btn2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border-color: #09A15C;
+    margin-top: 24px;
+}
+.vf-btn3{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border-color: #FFC239;
+    margin-top: 24px;
+}
+
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: initial left ;
+    background-position: 25px 38px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 0.1px;
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+    margin: 32px 160px 0px 160px;
+    
+
+}
+
+.yunus-quote{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    line-height: 24px;
+}
+.dr-yunus{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.designation{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 60%;
+    margin-bottom: 0;
+} 
+
+/****************Recent news*********************/
+
+.to-flex{
+    display: flex;
+    padding: 48px 48px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin: 0px 160px 24px 160px;
+    justify-content: space-between;
+}
+
+.news-img1{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+    margin-right: 32px;
+}
+
+.news-img2{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+    margin-left: 32px;
+}
+.news-list{
+    list-style: none;
+    margin-top: none;
+}
+
+.news-title{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: none;
+}
+
+.al-jazeera{
+    margin-top: none;
+    width: 134px;
+    height: 40px;
+}
+
+.news{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 15px;
+}
+
+/************Donate today********************/
+.vision-future1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 80px 160px 24px 160px;
+    text-align: center;
+}
+.about-vf1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin: 0px 160px 32px 160px;
+    text-align: center;
 }
